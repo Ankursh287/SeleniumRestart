@@ -14,6 +14,6 @@ public class SampleTest {
         driver.findElement(By.partialLinkText("PRACTICE")).click();
         Thread.sleep(2000);
         driver.findElement(By.xpath("//a[@href='/practice']")).click();
-        driver.close();
+        driver.quit();
     }
 }
