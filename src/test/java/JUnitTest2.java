@@ -29,12 +29,15 @@ public class JUnitTest2 {
     @Test
     public void test1() throws Exception {
         System.out.println("Test Method#1");
+        String title = driver.getTitle();
+        String titleURL = driver.getCurrentUrl();
+        System.out.println("Title of Page is " + title + " and CurrentURL is " + titleURL);
         driver.findElement(By.xpath("//a[@href='/login']")).click();
         Thread.sleep(2000);
         driver.findElement(By.partialLinkText("PRACTICE")).click();
         Thread.sleep(2000);
-        //driver.findElement(By.xpath("//a[@href='/practice']")).click();
-        //driver.findElement(By.xpath("//a[@href='/login']")).click();
+        String currentURL1 = driver.getCurrentUrl();
+        System.out.println("CurrentURL of Page is " + currentURL1);
         WebElement nameField = driver.findElement(By.xpath("//input[@id='email' and @placeholder='Email Address']"));
         nameField.clear();
         nameField.sendKeys("test@gmail.com");
@@ -44,8 +47,14 @@ public class JUnitTest2 {
         nameField.clear();
         passwordField.clear();
         driver.navigate().back();
+        String currentURL2 = driver.getCurrentUrl();
+        System.out.println("CurrentURL of Page after First back is " + currentURL2);
         driver.navigate().back();
+        String currentURL3 = driver.getCurrentUrl();
+        System.out.println("CurrentURL of Page after Second back is " + currentURL3);
         driver.navigate().forward();
+        String currentURL4 = driver.getCurrentUrl();
+        System.out.println("CurrentURL of Page after Third back is " + currentURL4);
     }
 
 }
