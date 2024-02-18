@@ -12,7 +12,6 @@ public class JUnitTest2 {
     public static void setupBeforeClass() throws Exception {
         driver = new ChromeDriver();
         driver.manage().window().fullscreen();
-        //driver.get("https://chromedriver.chromium.org/home");
         Thread.sleep(2000);
         driver.get("https://www.letskodeit.com/");
     }
