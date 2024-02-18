@@ -36,27 +36,28 @@ public class JUnitTest2 {
         Thread.sleep(2000);
         driver.findElement(By.partialLinkText("PRACTICE")).click();
         Thread.sleep(2000);
-        String currentURL1 = driver.getCurrentUrl();
-        System.out.println("CurrentURL of Page is " + currentURL1);
+        String currentURL = driver.getCurrentUrl();
+        System.out.println("CurrentURL of Page is " + currentURL);
         WebElement nameField = driver.findElement(By.xpath("//input[@id='email' and @placeholder='Email Address']"));
         nameField.clear();
         nameField.sendKeys("test@gmail.com");
         WebElement passwordField = driver.findElement(By.xpath("//input[@id='login-password']"));
         passwordField.clear();
         passwordField.sendKeys("Test");
-        nameField.clear();
-        passwordField.clear();
+        driver.navigate().refresh();
         driver.navigate().back();
-        String currentURL2 = driver.getCurrentUrl();
-        System.out.println("CurrentURL of Page after First back is " + currentURL2);
+        currentURL = driver.getCurrentUrl();
+        System.out.println("CurrentURL of Page after First back is " + currentURL);
         driver.navigate().back();
-        String currentURL3 = driver.getCurrentUrl();
-        System.out.println("CurrentURL of Page after Second back is " + currentURL3);
+        currentURL = driver.getCurrentUrl();
+        System.out.println("CurrentURL of Page after Second back is " + currentURL);
         driver.navigate().forward();
-        String currentURL4 = driver.getCurrentUrl();
-        System.out.println("CurrentURL of Page after Third back is " + currentURL4);
+        currentURL = driver.getCurrentUrl();
+        System.out.println("CurrentURL of Page after Third back is " + currentURL);
         String URLToNavigate = "https://www.letskodeit.com/support";
         driver.navigate().to(URLToNavigate);
+        String pageSource = driver.getPageSource();
+        System.out.println(pageSource);
     }
 
 }
