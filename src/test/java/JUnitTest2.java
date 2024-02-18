@@ -41,7 +41,8 @@ public class JUnitTest2 {
         WebElement passwordField = driver.findElement(By.xpath("//input[@id='login-password']"));
         passwordField.clear();
         passwordField.sendKeys("Test");
-
+        nameField.clear();
+        passwordField.clear();
     }
 
 }
