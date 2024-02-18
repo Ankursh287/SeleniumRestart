@@ -3,6 +3,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class JUnitTest2 {
@@ -11,13 +12,14 @@ public class JUnitTest2 {
     @BeforeClass
     public static void setupBeforeClass() throws Exception {
         driver = new ChromeDriver();
-        driver.manage().window().fullscreen();
+        driver.manage().window().maximize();
         Thread.sleep(2000);
         driver.get("https://www.letskodeit.com/");
     }
 
     @AfterClass
     public static void tearDownAfterClass() throws Exception {
+        Thread.sleep(5000);
         System.out.println("Executed after Class..");
         driver.quit();
     }
@@ -30,7 +32,15 @@ public class JUnitTest2 {
         Thread.sleep(2000);
         driver.findElement(By.partialLinkText("PRACTICE")).click();
         Thread.sleep(2000);
-        driver.findElement(By.xpath("//a[@href='/practice']")).click();
+        //driver.findElement(By.xpath("//a[@href='/practice']")).click();
+        //driver.findElement(By.xpath("//a[@href='/login']")).click();
+        WebElement nameField = driver.findElement(By.xpath("//input[@id='email' and @placeholder='Email Address']"));
+        nameField.clear();
+        nameField.sendKeys("test@gmail.com");
+        WebElement passwordField = driver.findElement(By.xpath("//input[@id='login-password']"));
+        passwordField.clear();
+        passwordField.sendKeys("Test");
+
     }
 
 }
