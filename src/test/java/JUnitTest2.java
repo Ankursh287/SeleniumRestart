@@ -11,6 +11,7 @@ public class JUnitTest2 {
 
     @BeforeClass
     public static void setupBeforeClass() throws Exception {
+        System.out.println("Executed before Class..");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         Thread.sleep(2000);
