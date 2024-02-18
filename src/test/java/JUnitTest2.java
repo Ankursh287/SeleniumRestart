@@ -43,6 +43,9 @@ public class JUnitTest2 {
         passwordField.sendKeys("Test");
         nameField.clear();
         passwordField.clear();
+        driver.navigate().back();
+        driver.navigate().back();
+        driver.navigate().forward();
     }
 
 }
