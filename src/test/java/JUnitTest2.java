@@ -13,14 +13,14 @@ public class JUnitTest2 {
     public static void setupBeforeClass() throws Exception {
         System.out.println("Executed before Class..");
         driver = new ChromeDriver();
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
         Thread.sleep(2000);
         driver.get("https://www.letskodeit.com/");
     }
 
     @AfterClass
     public static void tearDownAfterClass() throws Exception {
-        Thread.sleep(5000);
+        Thread.sleep(2000);
         System.out.println("Executed after Class..");
         driver.quit();
     }
@@ -55,6 +55,8 @@ public class JUnitTest2 {
         driver.navigate().forward();
         String currentURL4 = driver.getCurrentUrl();
         System.out.println("CurrentURL of Page after Third back is " + currentURL4);
+        String URLToNavigate = "https://www.letskodeit.com/support";
+        driver.navigate().to(URLToNavigate);
     }
 
 }
