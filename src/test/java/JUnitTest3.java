@@ -30,9 +30,9 @@ public class JUnitTest3 {
     @Test
     public void test1() throws Exception {
         System.out.println("Test Method#1");
-        WebElement searchBox = driver.findElement(By.xpath("//textarea[@title='Search']"));
-        searchBox.sendKeys("LetsKodeit");
-        searchBox.sendKeys(Keys.ENTER);
+//        WebElement searchBox = driver.findElement(By.xpath("//textarea[@title='Search']"));
+        WebElement searchBox = driver.findElement(By.xpath("//textarea[@id='APjFqb']"));
+        searchBox.sendKeys("LetsKodeit" + Keys.ENTER);
     }
 
 }
