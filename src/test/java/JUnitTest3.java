@@ -35,7 +35,10 @@ public class JUnitTest3 {
        // WebElement textGmail = driver.findElement(By.xpath("//a[text()='Gmail']"));
        // String nameOfElement = textGmail.getText();
        // WebElement attributeOfGoogleImage = driver.findElement(By.xpath("//img[@alt='Google']"));
-        System.out.println("Attribute of WebElement is : " + gm.getElement("//img[@alt='Google']","xpath").getAttribute("src"));
+        System.out.println("Attribute of WebElement is: " + gm.getElement("//img[@alt='Google']","xpath").getAttribute("src"));
+        System.out.println("Is WebElement present?: " + gm.isElementPresent("source","tagName"));
+        System.out.println("Is WebElement present?: " + gm.isElementPresent("img","tagName"));
+
        // System.out.println(attributeOfGoogleImage.getAttribute("src"));
        // System.out.println("nameOfElement : " + nameOfElement);
        // WebElement searchBox = driver.findElement(By.xpath("//textarea[@id='APjFqb']"));

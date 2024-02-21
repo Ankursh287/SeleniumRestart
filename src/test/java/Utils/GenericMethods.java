@@ -56,31 +56,39 @@ public class GenericMethods {
             case "xpath":
                 toBeReturnedList = this.driver.findElements(By.xpath(locator));
                 break;
-            case "css-selectors":
+            case "cssselectors":
                 toBeReturnedList = this.driver.findElements(By.cssSelector(locator));
                 break;
-            case "partialLinkText":
+            case "partiallinktext":
                 toBeReturnedList = this.driver.findElements(By.partialLinkText(locator));
                 break;
             case "id":
                 toBeReturnedList = this.driver.findElements(By.id(locator));
                 break;
-            case "className":
+            case "classname":
                 toBeReturnedList = this.driver.findElements(By.className(locator));
                 break;
             case "name":
                 toBeReturnedList = this.driver.findElements(By.name(locator));
                 break;
-            case "tagName":
+            case "tagname":
                 toBeReturnedList = this.driver.findElements(By.tagName(locator));
                 break;
             default:
-                System.out.println("Locator type not supported with " + type + " -> " + locator);
+                System.out.println("Locator type not supported");
                 break;
         }
-        if (toBeReturnedList.size() != 0) {
+        if (toBeReturnedList.isEmpty()) {
+            System.out.println("Element not found with " + type + " -> " + locator);
+
+        } else {
             System.out.println("Element found with " + type + " -> " + locator);
-            return toBeReturnedList;
-        } else return null;
+        }
+        return toBeReturnedList;
+    }
+
+    public boolean isElementPresent(String locator, String type) {
+        List<WebElement> listOfElements = getElements(locator, type);
+        return !listOfElements.isEmpty();
     }
 }
