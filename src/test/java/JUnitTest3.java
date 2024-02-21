@@ -1,6 +1,5 @@
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import Utils.GenericMethods;
+import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -8,19 +7,21 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class JUnitTest3 {
-    static WebDriver driver;
+    private WebDriver driver;
+    private GenericMethods gm;
 
-    @BeforeClass
-    public static void setupBeforeClass() throws Exception {
+    @Before
+    public void setup() throws Exception {
         System.out.println("Executed before Class..");
         driver = new ChromeDriver();
         //driver.manage().window().maximize();
         Thread.sleep(2000);
         driver.get("https://www.google.com/");
+        gm = new GenericMethods(driver);
     }
 
-    @AfterClass
-    public static void tearDownAfterClass() throws Exception {
+    @After
+    public void tearDown() throws Exception {
         Thread.sleep(2000);
         System.out.println("Executed after Class..");
         driver.quit();
@@ -30,14 +31,15 @@ public class JUnitTest3 {
     @Test
     public void test1() throws Exception {
         System.out.println("Test Method#1");
-//        WebElement searchBox = driver.findElement(By.xpath("//textarea[@title='Search']"));
-        WebElement textGmail = driver.findElement(By.xpath("//a[text()='Gmail']"));
-        String nameOfElement = textGmail.getText();
-        WebElement attributeOfGoogleImage = driver.findElement(By.xpath("//img[@alt='Google']"));
-        System.out.println(attributeOfGoogleImage.getAttribute("src"));
-        System.out.println("nameOfElement : " + nameOfElement);
-        WebElement searchBox = driver.findElement(By.xpath("//textarea[@id='APjFqb']"));
-        searchBox.sendKeys("LetsKodeit" + Keys.ENTER);
+//      WebElement searchBox = driver.findElement(By.xpath("//textarea[@title='Search']"));
+       // WebElement textGmail = driver.findElement(By.xpath("//a[text()='Gmail']"));
+       // String nameOfElement = textGmail.getText();
+       // WebElement attributeOfGoogleImage = driver.findElement(By.xpath("//img[@alt='Google']"));
+        System.out.println("Attribute of WebElement is : " + gm.getElement("//img[@alt='Google']","xpath").getAttribute("src"));
+       // System.out.println(attributeOfGoogleImage.getAttribute("src"));
+       // System.out.println("nameOfElement : " + nameOfElement);
+       // WebElement searchBox = driver.findElement(By.xpath("//textarea[@id='APjFqb']"));
+       // searchBox.sendKeys("LetsKodeit" + Keys.ENTER);
     }
 
 }
