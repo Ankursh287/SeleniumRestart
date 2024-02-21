@@ -39,7 +39,8 @@ public class JUnitTest3 {
         // String nameOfElement = textGmail.getText();
         // WebElement attributeOfGoogleImage = driver.findElement(By.xpath("//img[@alt='Google']"));
         System.out.println("Attribute of WebElement is: " + gm.getElement("//img[@alt='Google']", "xpath").getAttribute("src"));
-        wt.waitForElement(By.xpath("//a[@aria-label=\"Google apps\"]"), 3).click();
+        gm.waitForElement(By.xpath("//a[@aria-label=\"Google apps\"]"), 3).click();
+        gm.clickWhenReady(By.xpath("//a[@aria-label=\"Google apps\"]"), 3);
         System.out.println("Is WebElement present?: " + gm.isElementPresent("source", "tagName"));
         System.out.println("Is WebElement present?: " + gm.isElementPresent("img", "tagName"));
 

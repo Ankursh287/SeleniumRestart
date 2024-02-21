@@ -3,7 +3,10 @@ package Utils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -74,5 +77,31 @@ public class GenericMethods {
     public boolean isElementPresent(String locator, String type) {
         List<WebElement> listOfElements = getElements(locator, type);
         return !listOfElements.isEmpty();
+    }
+
+    public WebElement waitForElement(By locator, int timeout) {
+        WebElement element = null;
+        try {
+            System.out.println("Waiting a maximum of " + timeout + " seconds for element to be available");
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
+            element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+            System.out.println("Element appeared in desired time on the webpage ");
+        } catch (Exception e) {
+            System.out.println("Element not appeared in desired time on the webpage " + e.getMessage());
+        }
+        return element;
+    }
+
+    public void clickWhenReady(By locator, int timeout) {
+        try {
+            WebElement element = null;
+            System.out.println("Waiting a maximum of " + timeout + " seconds for element to be clickable");
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
+            element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+            element.click();
+            System.out.println("Element is clicked in desired time on the webpage ");
+        } catch (Exception e) {
+            System.out.println("Element is not clickable in desired time on the webpage " + e.getMessage());
+        }
     }
 }
