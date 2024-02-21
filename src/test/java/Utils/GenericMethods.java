@@ -18,30 +18,14 @@ public class GenericMethods {
         WebElement toBeReturned = null;
         type = type.toLowerCase();
         switch (type) {
-            case "xpath":
-                toBeReturned = this.driver.findElement(By.xpath(locator));
-                break;
-            case "css-selectors":
-                toBeReturned = this.driver.findElement(By.cssSelector(locator));
-                break;
-            case "partialLinkText":
-                toBeReturned = this.driver.findElement(By.partialLinkText(locator));
-                break;
-            case "id":
-                toBeReturned = this.driver.findElement(By.id(locator));
-                break;
-            case "className":
-                toBeReturned = this.driver.findElement(By.className(locator));
-                break;
-            case "name":
-                toBeReturned = this.driver.findElement(By.name(locator));
-                break;
-            case "tagName":
-                toBeReturned = this.driver.findElement(By.tagName(locator));
-                break;
-            default:
-                System.out.println("Locator type not supported with " + type + " -> " + locator);
-                break;
+            case "xpath" -> toBeReturned = this.driver.findElement(By.xpath(locator));
+            case "css-selectors" -> toBeReturned = this.driver.findElement(By.cssSelector(locator));
+            case "partialLinkText" -> toBeReturned = this.driver.findElement(By.partialLinkText(locator));
+            case "id" -> toBeReturned = this.driver.findElement(By.id(locator));
+            case "className" -> toBeReturned = this.driver.findElement(By.className(locator));
+            case "name" -> toBeReturned = this.driver.findElement(By.name(locator));
+            case "tagName" -> toBeReturned = this.driver.findElement(By.tagName(locator));
+            default -> System.out.println("Locator type not supported with " + type + " -> " + locator);
         }
         if (toBeReturned != null) {
             System.out.println("Element found with " + type + " -> " + locator);
