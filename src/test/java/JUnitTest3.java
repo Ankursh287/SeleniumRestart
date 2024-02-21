@@ -31,6 +31,11 @@ public class JUnitTest3 {
     public void test1() throws Exception {
         System.out.println("Test Method#1");
 //        WebElement searchBox = driver.findElement(By.xpath("//textarea[@title='Search']"));
+        WebElement textGmail = driver.findElement(By.xpath("//a[text()='Gmail']"));
+        String nameOfElement = textGmail.getText();
+        WebElement attributeOfGoogleImage = driver.findElement(By.xpath("//img[@alt='Google']"));
+        System.out.println(attributeOfGoogleImage.getAttribute("src"));
+        System.out.println("nameOfElement : " + nameOfElement);
         WebElement searchBox = driver.findElement(By.xpath("//textarea[@id='APjFqb']"));
         searchBox.sendKeys("LetsKodeit" + Keys.ENTER);
     }
