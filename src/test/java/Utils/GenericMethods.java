@@ -50,37 +50,37 @@ public class GenericMethods {
     }
 
     public List<WebElement> getElements(String locator, String type) {
-        List<WebElement> toBeReturned = new ArrayList<>();
+        List<WebElement> toBeReturnedList = new ArrayList<>();
         type = type.toLowerCase();
         switch (type) {
             case "xpath":
-                toBeReturned = this.driver.findElements(By.xpath(locator));
+                toBeReturnedList = this.driver.findElements(By.xpath(locator));
                 break;
             case "css-selectors":
-                toBeReturned = this.driver.findElements(By.cssSelector(locator));
+                toBeReturnedList = this.driver.findElements(By.cssSelector(locator));
                 break;
             case "partialLinkText":
-                toBeReturned = this.driver.findElements(By.partialLinkText(locator));
+                toBeReturnedList = this.driver.findElements(By.partialLinkText(locator));
                 break;
             case "id":
-                toBeReturned = this.driver.findElements(By.id(locator));
+                toBeReturnedList = this.driver.findElements(By.id(locator));
                 break;
             case "className":
-                toBeReturned = this.driver.findElements(By.className(locator));
+                toBeReturnedList = this.driver.findElements(By.className(locator));
                 break;
             case "name":
-                toBeReturned = this.driver.findElements(By.name(locator));
+                toBeReturnedList = this.driver.findElements(By.name(locator));
                 break;
             case "tagName":
-                toBeReturned = this.driver.findElements(By.tagName(locator));
+                toBeReturnedList = this.driver.findElements(By.tagName(locator));
                 break;
             default:
                 System.out.println("Locator type not supported with " + type + " -> " + locator);
                 break;
         }
-        if (toBeReturned != null) {
+        if (toBeReturnedList.size() != 0) {
             System.out.println("Element found with " + type + " -> " + locator);
-            return toBeReturned;
+            return toBeReturnedList;
         } else return null;
     }
 }
