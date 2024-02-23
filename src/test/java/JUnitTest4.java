@@ -34,7 +34,7 @@ public class JUnitTest4 {
         String filename = rand.nextInt(5) + ".png";
         String directory = System.getProperty("user.dir") + "//screenshots//";
         File sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(sourceFile, new File(directory + filename));
+       // FileUtils.copyFile(sourceFile, new File(directory + filename));
         Thread.sleep(2000);
         System.out.println("Executed after Class..");
         driver.quit();
