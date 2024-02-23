@@ -1,11 +1,13 @@
 import Utils.GenericMethods;
 import Utils.WaitTypes;
+import org.apache.commons.io.FileUtils;
 import org.junit.*;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.io.File;
+import java.util.Date;
+import java.util.Random;
 
 public class JUnitTest3 {
     private WebDriver driver;
@@ -25,6 +27,11 @@ public class JUnitTest3 {
 
     @After
     public void tearDown() throws Exception {
+        Random rand = new Random();
+        String filename = rand.nextInt(5) + ".png";
+        String directory = System.getProperty("user.dir") + "//screenshots//";
+        File sourceFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(sourceFile, new File(directory+filename));
         Thread.sleep(2000);
         System.out.println("Executed after Class..");
         driver.quit();
@@ -48,6 +55,8 @@ public class JUnitTest3 {
         // System.out.println("nameOfElement : " + nameOfElement);
         // WebElement searchBox = driver.findElement(By.xpath("//textarea[@id='APjFqb']"));
         // searchBox.sendKeys("LetsKodeit" + Keys.ENTER);
+
+
     }
 
 }
