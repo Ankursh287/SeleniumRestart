@@ -34,7 +34,7 @@ public class JUnitTest4 {
         String filename = rand.nextInt(5) + ".png";
         String directory = System.getProperty("user.dir") + "//screenshots//";
         File sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-       // FileUtils.copyFile(sourceFile, new File(directory + filename));
+        // FileUtils.copyFile(sourceFile, new File(directory + filename));
         Thread.sleep(2000);
         System.out.println("Executed after Class..");
         driver.quit();
@@ -44,12 +44,13 @@ public class JUnitTest4 {
     @Test
     public void test1() throws Exception {
         System.out.println("Test Method#1");
+        //Getting element by using JavaScriptExecutor
         WebElement textBox = (WebElement) js.executeScript("return document.getElementById('name')");
         textBox.sendKeys("test");
 
+        //Calculating Height and Width of window
         long height = (long) js.executeScript("return window.innerHeight;");
         long width = (long) js.executeScript("return window.innerWidth;");
-
         System.out.println("Height is : " + height + " & Width is : " + width);
 
         //Scroll Down
@@ -65,6 +66,12 @@ public class JUnitTest4 {
         js.executeScript("window.scrollBy(0,-190);");
         Thread.sleep(3000);
 
+        //Clicking on an element using JavascriptExecutor
+        WebElement element1 = (WebElement) js.executeScript("return document.getElementById('bmwcheck')");
+        js.executeScript("arguments[0].scrollIntoView(true)",element1);
+        Thread.sleep(3000);
+        js.executeScript("arguments[0].click()", element1);
+        Thread.sleep(3000);
 
     }
 
