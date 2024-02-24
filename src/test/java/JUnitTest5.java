@@ -72,6 +72,8 @@ public class JUnitTest5 {
 
         //Switch back to parent window
         driver.switchTo().window(parentHandle);
+        driver.findElement(By.xpath("//input[@placeholder='Enter Your Name']")).sendKeys("name");
+        Thread.sleep(2000);
     }
 
 }
