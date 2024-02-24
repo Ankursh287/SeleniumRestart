@@ -57,8 +57,10 @@ public class JUnitTest8 {
         WebElement droppable = driver.findElement(By.xpath("//div[@id='droppable']"));
         Actions actions = new Actions(driver);
         //1st way
-        actions.clickAndHold().dragAndDrop(draggable, droppable).build().perform();
+        actions.clickAndHold().dragAndDrop(draggable, droppable).release().perform();
         //2nd way
         actions.dragAndDrop(draggable, droppable).build().perform();
+        //3rd way
+        actions.clickAndHold(draggable).moveToElement(droppable).build().perform();
     }
 }
