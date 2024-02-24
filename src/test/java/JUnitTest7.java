@@ -1,5 +1,6 @@
 import Utils.GenericMethods;
 import Utils.WaitTypes;
+import org.checkerframework.checker.units.qual.A;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -8,9 +9,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.io.File;
 import java.util.Random;
-import java.util.Set;
 
-public class JUnitTest6 {
+public class JUnitTest7 {
     private WebDriver driver;
     private GenericMethods gm;
     private WaitTypes wt;
@@ -40,17 +40,16 @@ public class JUnitTest6 {
 
     @Test
     public void test1() throws Exception {
-        WebElement iframe;
-        iframe = driver.findElement(By.id("courses-iframe"));
-        driver.switchTo().frame("courses-iframe");
-        //driver.switchTo().frame("iframe-name");
-
-        WebElement searchBox = driver.findElement(By.xpath("//input[@placeholder='Search Course']"));
-        searchBox.sendKeys("python");
-
-        driver.switchTo().defaultContent();
+        WebElement alertButton = driver.findElement(By.id("alertbtn"));
+        WebElement confirmButton = driver.findElement(By.id("confirmbtn"));
+        WebElement nameField = driver.findElement(By.id("name"));
+        alertButton.click();
         Thread.sleep(2000);
-        driver.findElement(By.id("name")).sendKeys("Test Successful");
-        Thread.sleep(2000);
+        Alert a = driver.switchTo().alert();
+        a.accept();
+        confirmButton.click();
+        Alert c = driver.switchTo().alert();
+        c.dismiss();
+        nameField.sendKeys("Test Successful");
     }
 }
