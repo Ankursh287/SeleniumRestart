@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32ad74c7-c09e-4ead-8188-b9799adad154" name="Changes" comment="Updated">
+      <change afterPath="$PROJECT_DIR$/screenshots/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTest5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitTest4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +49,8 @@
     "JUnit.JUnitTest2.executor": "Run",
     "JUnit.JUnitTest3.executor": "Run",
     "JUnit.JUnitTest4.executor": "Run",
+    "JUnit.JUnitTest5.executor": "Run",
+    "JUnit.JUnitTest5.test1.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -320,7 +326,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708699914315</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1708700467997</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1708700467997</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
