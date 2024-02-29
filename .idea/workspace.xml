@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32ad74c7-c09e-4ead-8188-b9799adad154" name="Changes" comment="Updated">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTest10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTest9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,32 +36,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.SampleTest.executor": "Run",
-    "JUnit.JUnitTest.executor": "Run",
-    "JUnit.JUnitTest10.executor": "Run",
-    "JUnit.JUnitTest2.executor": "Run",
-    "JUnit.JUnitTest3.executor": "Run",
-    "JUnit.JUnitTest4.executor": "Run",
-    "JUnit.JUnitTest5.executor": "Run",
-    "JUnit.JUnitTest5.test1.executor": "Debug",
-    "JUnit.JUnitTest6.executor": "Run",
-    "JUnit.JUnitTest7.executor": "Run",
-    "JUnit.JUnitTest8.executor": "Run",
-    "JUnit.JUnitTest9.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.SampleTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest10.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest5.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest5.test1.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.JUnitTest6.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest7.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest8.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest9.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -71,6 +69,21 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SeleniumRestartBasics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SeleniumRestartBasics" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
