@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32ad74c7-c09e-4ead-8188-b9799adad154" name="Changes" comment="Updated">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testngCheck/SampleTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/SampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testngCheck/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngCheck/SampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngCheck/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngCheck/ParallelTestWithMultipleBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngCheck/SampleTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngParallelTestWithMultipleBrowser.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -498,7 +486,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709637902360</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1709642735079</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1709642735079</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
