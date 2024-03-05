@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32ad74c7-c09e-4ead-8188-b9799adad154" name="Changes" comment="Updated">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testngCheck/SampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testngCheck/SampleTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/SampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngCheck/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngCheck/SampleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +70,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng.xml.executor": "Run",
     "TestNG.SampleTest.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -72,8 +85,26 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testngCheck" />
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumRestartBasics" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng.xml" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -459,7 +490,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709636800044</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1709637902360</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1709637902360</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

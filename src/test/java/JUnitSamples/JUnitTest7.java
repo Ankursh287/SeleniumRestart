@@ -1,16 +1,18 @@
+package JUnitSamples;
+
 import Utils.GenericMethods;
 import Utils.WaitTypes;
+import org.checkerframework.checker.units.qual.A;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 
 import java.io.File;
 import java.util.Random;
 
-public class JUnitTest10 {
+public class JUnitTest7 {
     private WebDriver driver;
     private GenericMethods gm;
     private WaitTypes wt;
@@ -20,7 +22,8 @@ public class JUnitTest10 {
     public void setup() throws Exception {
         driver = new ChromeDriver();
         js = (JavascriptExecutor) driver;
-        driver.get("https://www.letskodeit.com/practice");
+        js.executeScript("window.location='https://www.letskodeit.com/practice'");
+        //driver.get("https://www.letskodeit.com/practice");
         driver.manage().window().maximize();
         gm = new GenericMethods(driver);
         wt = new WaitTypes(driver);
@@ -38,17 +41,17 @@ public class JUnitTest10 {
     }
 
     @Test
-    public void test2() throws Exception {
-        WebElement signIn = driver.findElement(By.xpath("//a[text()='Sign In']"));
-        signIn.click();
-
-        WebElement emailAddress = driver.findElement(By.xpath("//input[@placeholder='Email Address']"));
-        emailAddress.sendKeys(Keys.SHIFT + "test@email.com");
-
-        WebElement password = driver.findElement(By.xpath("//input[@placeholder='Password']"));
-        password.sendKeys(Keys.SHIFT + "test@email.com" + Keys.ENTER);
-
+    public void test1() throws Exception {
+        WebElement alertButton = driver.findElement(By.id("alertbtn"));
+        WebElement confirmButton = driver.findElement(By.id("confirmbtn"));
+        WebElement nameField = driver.findElement(By.id("name"));
+        alertButton.click();
         Thread.sleep(2000);
-
+        Alert a = driver.switchTo().alert();
+        a.accept();
+        confirmButton.click();
+        Alert c = driver.switchTo().alert();
+        c.dismiss();
+        nameField.sendKeys("Test Successful");
     }
 }

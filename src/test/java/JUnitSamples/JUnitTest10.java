@@ -1,3 +1,5 @@
+package JUnitSamples;
+
 import Utils.GenericMethods;
 import Utils.WaitTypes;
 import org.junit.After;
@@ -10,7 +12,7 @@ import org.openqa.selenium.interactions.Actions;
 import java.io.File;
 import java.util.Random;
 
-public class JUnitTest9 {
+public class JUnitTest10 {
     private WebDriver driver;
     private GenericMethods gm;
     private WaitTypes wt;
@@ -20,7 +22,7 @@ public class JUnitTest9 {
     public void setup() throws Exception {
         driver = new ChromeDriver();
         js = (JavascriptExecutor) driver;
-        driver.get("https://jqueryui.com/slider/");
+        driver.get("https://www.letskodeit.com/practice");
         driver.manage().window().maximize();
         gm = new GenericMethods(driver);
         wt = new WaitTypes(driver);
@@ -39,16 +41,16 @@ public class JUnitTest9 {
 
     @Test
     public void test2() throws Exception {
-        WebElement iframe = driver.findElement(By.cssSelector(".demo-frame"));
-        driver.switchTo().frame(iframe);
-        WebElement slider = driver.findElement(By.xpath("//div[@id='slider']"));
-        //WebElement droppable = driver.findElement(By.xpath("//div[@id='droppable']"));
-        Actions actions = new Actions(driver);
-        //1st way
-//        actions.clickAndHold(slider).moveToLocation(10,0).build().perform();
-        //2nd way
-        actions.dragAndDropBy(slider, 100, 0).build().perform();
+        WebElement signIn = driver.findElement(By.xpath("//a[text()='Sign In']"));
+        signIn.click();
+
+        WebElement emailAddress = driver.findElement(By.xpath("//input[@placeholder='Email Address']"));
+        emailAddress.sendKeys(Keys.SHIFT + "test@email.com");
+
+        WebElement password = driver.findElement(By.xpath("//input[@placeholder='Password']"));
+        password.sendKeys(Keys.SHIFT + "test@email.com" + Keys.ENTER);
 
         Thread.sleep(2000);
+
     }
 }

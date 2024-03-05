@@ -1,3 +1,5 @@
+package JUnitSamples;
+
 import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

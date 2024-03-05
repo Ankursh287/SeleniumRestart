@@ -1,16 +1,18 @@
+package JUnitSamples;
+
 import Utils.GenericMethods;
 import Utils.WaitTypes;
-import org.checkerframework.checker.units.qual.A;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 import java.io.File;
 import java.util.Random;
 
-public class JUnitTest7 {
+public class JUnitTest9 {
     private WebDriver driver;
     private GenericMethods gm;
     private WaitTypes wt;
@@ -20,8 +22,7 @@ public class JUnitTest7 {
     public void setup() throws Exception {
         driver = new ChromeDriver();
         js = (JavascriptExecutor) driver;
-        js.executeScript("window.location='https://www.letskodeit.com/practice'");
-        //driver.get("https://www.letskodeit.com/practice");
+        driver.get("https://jqueryui.com/slider/");
         driver.manage().window().maximize();
         gm = new GenericMethods(driver);
         wt = new WaitTypes(driver);
@@ -39,17 +40,17 @@ public class JUnitTest7 {
     }
 
     @Test
-    public void test1() throws Exception {
-        WebElement alertButton = driver.findElement(By.id("alertbtn"));
-        WebElement confirmButton = driver.findElement(By.id("confirmbtn"));
-        WebElement nameField = driver.findElement(By.id("name"));
-        alertButton.click();
+    public void test2() throws Exception {
+        WebElement iframe = driver.findElement(By.cssSelector(".demo-frame"));
+        driver.switchTo().frame(iframe);
+        WebElement slider = driver.findElement(By.xpath("//div[@id='slider']"));
+        //WebElement droppable = driver.findElement(By.xpath("//div[@id='droppable']"));
+        Actions actions = new Actions(driver);
+        //1st way
+//        actions.clickAndHold(slider).moveToLocation(10,0).build().perform();
+        //2nd way
+        actions.dragAndDropBy(slider, 100, 0).build().perform();
+
         Thread.sleep(2000);
-        Alert a = driver.switchTo().alert();
-        a.accept();
-        confirmButton.click();
-        Alert c = driver.switchTo().alert();
-        c.dismiss();
-        nameField.sendKeys("Test Successful");
     }
 }

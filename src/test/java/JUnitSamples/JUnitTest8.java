@@ -1,3 +1,5 @@
+package JUnitSamples;
+
 import Utils.GenericMethods;
 import Utils.WaitTypes;
 import org.junit.After;
