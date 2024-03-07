@@ -42,7 +42,7 @@ public class TestNG_ITestResultScreenshotsOnFailure {
         if (testResult.getStatus() == ITestResult.SUCCESS) {
             System.out.println("Failed: " + testResult.getName());
             String filename = getRandomString(10) + ".jpg";
-            String directory = System.getProperty("user.dir") + "//screenshots//";
+            String directory = System.getProperty("user.dir") + "\\screenshots\\";
             File sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             FileUtils.copyFile(sourceFile, new File(directory + filename));
         }

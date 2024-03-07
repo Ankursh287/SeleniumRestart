@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32ad74c7-c09e-4ead-8188-b9799adad154" name="Changes" comment="Updated">
-      <change afterPath="$PROJECT_DIR$/screenshots/af0aCKUsfN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testngCheck/TestNG_ITestResultScreenshotsOnFailure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/oK8Rph520U.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitSamples/JUnitTest10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testngCheck/SampleTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngCheck/SampleTestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngCheck/TestNG_ITestResultScreenshotsOnFailure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngCheck/TestNG_ITestResultScreenshotsOnFailure.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,14 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707302249099</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Updated">
-      <option name="closed" value="true" />
-      <created>1708263099753</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1708263099753</updated>
     </task>
     <task id="LOCAL-00009" summary="Updated">
       <option name="closed" value="true" />
@@ -544,7 +533,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709799586580</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1709801427737</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1709801427737</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
