@@ -52,8 +52,8 @@ public class CustomListeners2 implements ITestListener {
     public void onFinish(ITestContext context) {
         //After <test> tag of testng.xml file
         System.out.println("onFinish -> Test Tag  Name: " + context.getName());
-/*        var methods = context.getAllTestMethods();
+        var methods = context.getAllTestMethods();
         System.out.println("Below method will be executed in <test> tag: ");
-        Arrays.stream(methods).forEach(System.out::println);*/
+        Arrays.stream(methods).map(ITestNGMethod::getMethodName).forEach(System.out::println);
     }
 }
