@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32ad74c7-c09e-4ead-8188-b9799adad154" name="Changes" comment="Updated">
-      <change afterPath="$PROJECT_DIR$/screenshots/oK8Rph520U.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/CustomListeners1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/CustomListeners2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testngCheck/TestNG_ListenersTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testngCheck/TestNG_ListenersTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-listeners1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testngCheck/TestNG_ITestResultScreenshotsOnFailure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngCheck/TestNG_ITestResultScreenshotsOnFailure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +62,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng-listeners1.xml.executor": "Run",
     "TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng.xml.executor": "Run",
     "TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testngParallelTestWithMultipleBrowser.xml.executor": "Run",
     "TestNG.DataProviders.executor": "Run",
@@ -67,6 +72,7 @@
     "TestNG.SampleTest.executor": "Run",
     "TestNG.TestNG_ITestResultDemo.executor": "Run",
     "TestNG.TestNG_ITestResultScreenshotsOnFailure.executor": "Run",
+    "TestNG.TestNG_ListenersTest1.testMethod2.executor": "Debug",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart",
@@ -84,6 +90,7 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Utils" />
       <recent name="testngCheck" />
       <recent name="" />
     </key>
@@ -148,14 +155,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707302249099</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Updated">
-      <option name="closed" value="true" />
-      <created>1708263168194</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1708263168194</updated>
     </task>
     <task id="LOCAL-00010" summary="Updated">
       <option name="closed" value="true" />
@@ -541,7 +540,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709801427737</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1709808202830</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1709808202830</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
