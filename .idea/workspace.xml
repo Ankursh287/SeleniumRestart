@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32ad74c7-c09e-4ead-8188-b9799adad154" name="Changes" comment="Updated">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/CustomListeners3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testngCheck/TestNG_ListenersTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-listeners2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng-listeners1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-listeners1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngCheck/TestNG_ListenersTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngCheck/TestNG_ListenersTest3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng-listeners3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-listeners3.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng-listeners1.xml.executor": "Run",
+    "TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng-listeners2.xml.executor": "Run",
+    "TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng-listeners3.xml.executor": "Run",
     "TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng.xml.executor": "Run",
     "TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testngParallelTestWithMultipleBrowser.xml.executor": "Run",
     "TestNG.DataProviders.executor": "Run",
@@ -92,7 +93,17 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng-listeners3.xml">
+    <configuration name="C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng-listeners3.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumRestartBasics" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-listeners3.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testngParallelTestWithMultipleBrowser.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumRestartBasics" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testngParallelTestWithMultipleBrowser.xml" />
@@ -132,6 +143,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng-listeners3.xml" />
         <item itemvalue="TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testngParallelTestWithMultipleBrowser.xml" />
         <item itemvalue="TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng.xml" />
       </list>
@@ -152,14 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707302249099</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Updated">
-      <option name="closed" value="true" />
-      <created>1708263981414</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1708263981414</updated>
     </task>
     <task id="LOCAL-00013" summary="Updated">
       <option name="closed" value="true" />
@@ -545,7 +549,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709811756823</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1709822119534</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1709822119534</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
