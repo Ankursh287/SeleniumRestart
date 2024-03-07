@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.*;
 
 @Test()
@@ -38,10 +40,15 @@ public class ParallelTestWithMultipleBrowser {
         emailField.sendKeys("test@email.com");
         passwordField.sendKeys("password");
         loginButton.click();
+        Assert.assertTrue(false);
     }
 
     @AfterTest
-    public void tearDown() {
+    public void tearDown(ITestResult testResult) {
+        if (!testResult.isSuccess()){
+            System.out.println("Test was not successful");
+        }
+        System.out.println(testResult.getMethod().getMethodName());
         driver.quit();
     }
 }
