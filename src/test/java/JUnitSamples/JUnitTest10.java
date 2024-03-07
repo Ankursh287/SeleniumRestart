@@ -2,6 +2,7 @@ package JUnitSamples;
 
 import Utils.GenericMethods;
 import Utils.WaitTypes;
+import org.apache.commons.io.FileUtils;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -34,7 +35,7 @@ public class JUnitTest10 {
         String filename = rand.nextInt(5) + ".png";
         String directory = System.getProperty("user.dir") + "//screenshots//";
         File sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        // FileUtils.copyFile(sourceFile, new File(directory + filename));
+        FileUtils.copyFile(sourceFile, new File(directory + filename));
         Thread.sleep(2000);
         driver.quit();
     }

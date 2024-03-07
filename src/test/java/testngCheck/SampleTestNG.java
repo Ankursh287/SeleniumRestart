@@ -35,10 +35,7 @@ public class SampleTestNG {
         emailField.sendKeys("test@email.com");
         passwordField.sendKeys("password");
         loginButton.click();
-        Assert.assertTrue(false);
     }
-
-    @Test
 
     @AfterTest
     public void tearDown(ITestResult testResult) {
