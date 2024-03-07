@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="32ad74c7-c09e-4ead-8188-b9799adad154" name="Changes" comment="Updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testngCheck/ParallelTestWithMultipleBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngCheck/ParallelTestWithMultipleBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngCheck/TestNG_ITestResultDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngCheck/TestNG_ITestResultDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +64,7 @@
     "TestNG.DataProvidersInSameClass.executor": "Run",
     "TestNG.ParallelTestWithMultipleBrowser.executor": "Run",
     "TestNG.SampleTest.executor": "Run",
+    "TestNG.TestNG_ITestResultDemo.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart",
@@ -85,7 +86,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testngParallelTestWithMultipleBrowser.xml">
+  <component name="RunManager">
     <configuration name="C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testngParallelTestWithMultipleBrowser.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumRestartBasics" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testngParallelTestWithMultipleBrowser.xml" />
@@ -145,14 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707302249099</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Updated">
-      <option name="closed" value="true" />
-      <created>1708262963396</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1708262963396</updated>
     </task>
     <task id="LOCAL-00007" summary="Updated">
       <option name="closed" value="true" />
@@ -538,7 +531,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709796503850</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1709798223878</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1709798223878</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
