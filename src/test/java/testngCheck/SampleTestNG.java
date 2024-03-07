@@ -7,15 +7,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.ITestResult;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
-@Test()
-public class ParallelTestWithMultipleBrowser {
+public class SampleTestNG {
     WebDriver driver;
     String baseURL;
 
     @BeforeTest
-    @Parameters({"browser"})
     public void setUp(String browser) {
         baseURL = "https://www.letskodeit.com/home";
         switch (browser) {
@@ -24,12 +24,7 @@ public class ParallelTestWithMultipleBrowser {
         }
         driver.get(baseURL);
     }
-/*    @DataProvider
-    public Object[][] data() {
-        return new String[][] {new String[] {"data1"}, new String[] {"data2"}};
-    }*/
 
-    /*@Test(dataProvider = "data")*/
     @Test
     public void test() {
         WebElement loginLink = driver.findElement(By.xpath("//a[@href='/login']"));
@@ -40,15 +35,17 @@ public class ParallelTestWithMultipleBrowser {
         emailField.sendKeys("test@email.com");
         passwordField.sendKeys("password");
         loginButton.click();
-       // Assert.assertTrue(false);
+        Assert.assertTrue(false);
     }
 
+    @Test
+
     @AfterTest
-    public void tearDown(/*ITestResult testResult*/) {
-/*        if (!(testResult.isSuccess())){
+    public void tearDown(ITestResult testResult) {
+        if (!(testResult.isSuccess())) {
             System.out.println("Test was not successful");
-        }*/
-       // System.out.println(testResult.getMethod().getMethodName());
+        }
+        System.out.println(testResult.getMethod().getMethodName());
         driver.quit();
     }
 }
