@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-08T17:43:12 IST" name="Default Suite" finished-at="2024-03-08T17:43:21 IST" duration-ms="8874">
+  <suite started-at="2024-03-08T18:56:05 IST" name="Default Suite" finished-at="2024-03-08T18:56:12 IST" duration-ms="7324">
     <groups>
     </groups>
-    <test started-at="2024-03-08T17:43:12 IST" name="SeleniumRestart" finished-at="2024-03-08T17:43:21 IST" duration-ms="8874">
-      <class name="ExtentReports.SeleniumLoginTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ExtentReports.SeleniumLoginTest@18ce0030]" started-at="2024-03-08T17:43:12 IST" name="beforeClass" finished-at="2024-03-08T17:43:19 IST" duration-ms="7197" status="PASS">
+    <test started-at="2024-03-08T18:56:05 IST" name="SeleniumRestart" finished-at="2024-03-08T18:56:12 IST" duration-ms="7324">
+      <class name="ExtentReports.SeleniumLoginTestScreenshots">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ExtentReports.SeleniumLoginTestScreenshots@12e61fe6]" started-at="2024-03-08T18:56:05 IST" name="beforeClass" finished-at="2024-03-08T18:56:11 IST" duration-ms="6094" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="test()[pri:0, instance:ExtentReports.SeleniumLoginTest@18ce0030]" started-at="2024-03-08T17:43:19 IST" name="test" finished-at="2024-03-08T17:43:20 IST" duration-ms="1347" status="PASS">
+        <test-method signature="test()[pri:0, instance:ExtentReports.SeleniumLoginTestScreenshots@12e61fe6]" started-at="2024-03-08T18:56:11 IST" name="test" finished-at="2024-03-08T18:56:12 IST" duration-ms="963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ExtentReports.SeleniumLoginTest@18ce0030]" started-at="2024-03-08T17:43:20 IST" name="tearDown" finished-at="2024-03-08T17:43:21 IST" duration-ms="305" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ExtentReports.SeleniumLoginTestScreenshots@12e61fe6]" started-at="2024-03-08T18:56:12 IST" name="tearDown" finished-at="2024-03-08T18:56:12 IST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- ExtentReports.SeleniumLoginTest -->
+      </class> <!-- ExtentReports.SeleniumLoginTestScreenshots -->
     </test> <!-- SeleniumRestart -->
   </suite> <!-- Default Suite -->
 </testng-results>

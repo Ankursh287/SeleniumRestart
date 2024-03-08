@@ -45,7 +45,6 @@ public class SeleniumLoginTest {
         test.log(LogStatus.INFO, "login button clicked..");
         WebElement welcomeText = driver.findElement(By.cssSelector("#incorrectdetails"));
         Assert.assertNotNull(welcomeText);
-       /* System.out.println("Login Successful");*/
         test.log(LogStatus.INFO, "Assertion completed and Success Message printed..");
     }
 

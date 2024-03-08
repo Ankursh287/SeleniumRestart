@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32ad74c7-c09e-4ead-8188-b9799adad154" name="Changes" comment="Updated">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ExtentReports/SeleniumLoginTestWithAventstackExtentReports.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-ExtentReports.SeleniumLoginTestScreenshots.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/logintest.html" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/logintest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ExtentReports/SeleniumLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExtentReports/SeleniumLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/SeleniumRestart.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/SeleniumRestart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/SeleniumRestart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/SeleniumRestart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +84,7 @@
     "TestNG.ParallelTestWithMultipleBrowser.executor": "Run",
     "TestNG.SampleTest.executor": "Run",
     "TestNG.SeleniumLoginTest.executor": "Run",
+    "TestNG.SeleniumLoginTestScreenshots.executor": "Run",
     "TestNG.TestNG_ITestResultDemo.executor": "Run",
     "TestNG.TestNG_ITestResultScreenshotsOnFailure.executor": "Run",
     "TestNG.TestNG_ListenersTest1.testMethod2.executor": "Debug",
@@ -89,6 +106,7 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ExtentReports" />
       <recent name="testngCheck" />
       <recent name="Utils" />
       <recent name="" />
@@ -223,14 +241,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707302249099</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Updated">
-      <option name="closed" value="true" />
-      <created>1708266701878</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1708266701878</updated>
     </task>
     <task id="LOCAL-00019" summary="Updated">
       <option name="closed" value="true" />
@@ -616,7 +626,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709899756965</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1709900141972</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1709900141972</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
