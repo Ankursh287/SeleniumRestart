@@ -1,10 +1,14 @@
 package ExtentReports;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.Markup;
+import com.aventstack.extentreports.observer.entity.MediaEntity;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 /*import com.relevantcodes.extentreports.ExtentTest;*/
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -12,6 +16,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.io.IOException;
 
 public class SeleniumLoginTestWithAventstackExtentReports {
@@ -57,14 +62,14 @@ public class SeleniumLoginTestWithAventstackExtentReports {
 
     @AfterTest
     public void tearDown() throws IOException {
-        /*if (test) {
-            System.out.println("Failed: " + testResult.getName());
             String filename = getRandomString(10) + ".jpg";
             String directory = System.getProperty("user.dir") + "\\screenshots\\";
             File sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(sourceFile, new File(directory + filename));
-            test.addScreenCapture(directory+filename);
-        }*/
+            File destinationFile = new File(directory + filename);
+            FileUtils.copyFile(sourceFile, destinationFile);
+           // test.pass(MediaEntityBuilder.createScreenCaptureFromPath(directory+filename))
+            test.pass( MediaEntityBuilder.createScreenCaptureFromPath(directory+filename).build());
+        test.pass( MediaEntityBuilder.createScreenCaptureFromBase64String(directory+filename).build());
         driver.quit();
         report.flush();
     }
