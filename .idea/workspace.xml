@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32ad74c7-c09e-4ead-8188-b9799adad154" name="Changes" comment="Updated">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ExtentReports/SeleniumLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExtentReports/SeleniumLoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -224,14 +223,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707302249099</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Updated">
-      <option name="closed" value="true" />
-      <created>1708265343600</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1708265343600</updated>
     </task>
     <task id="LOCAL-00018" summary="Updated">
       <option name="closed" value="true" />
@@ -617,7 +608,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709899288105</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1709899756965</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1709899756965</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

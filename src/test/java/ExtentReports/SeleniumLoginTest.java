@@ -33,19 +33,26 @@ public class SeleniumLoginTest {
     public void test() {
         WebElement loginLink = driver.findElement(By.xpath("//a[@href='/login']"));
         loginLink.click();
+        test.log(LogStatus.INFO, "loginLink clicked..");
         WebElement emailField = driver.findElement(By.xpath("//input[@placeholder='Email Address']"));
         WebElement passwordField = driver.findElement(By.xpath("//input[@placeholder='Password']"));
         WebElement loginButton = driver.findElement(By.cssSelector("#login"));
         emailField.sendKeys("test@email.com");
+        test.log(LogStatus.INFO, "email ID entered in field..");
         passwordField.sendKeys("password");
+        test.log(LogStatus.INFO, "password entered in field..");
         loginButton.click();
+        test.log(LogStatus.INFO, "login button clicked..");
         WebElement welcomeText = driver.findElement(By.cssSelector("#incorrectdetails"));
         Assert.assertNotNull(welcomeText);
-        System.out.println("Login Successful");
+       /* System.out.println("Login Successful");*/
+        test.log(LogStatus.INFO, "Assertion completed and Success Message printed..");
     }
 
     @AfterTest
     public void tearDown() {
         driver.quit();
+        report.endTest(test);
+        report.flush();
     }
 }
