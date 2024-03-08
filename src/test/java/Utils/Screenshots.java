@@ -13,7 +13,8 @@ public class Screenshots {
         fileName = fileName + ".png";
         String directory = System.getProperty("user.dir") + "\\screenshots\\";
         File sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(sourceFile, new File(directory + fileName));
+        File destinationFile = new File(directory + fileName);
+        FileUtils.copyFile(sourceFile, destinationFile);
         String destination = directory + fileName;
         return destination;
     }
