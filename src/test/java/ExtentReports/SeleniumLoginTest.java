@@ -1,5 +1,8 @@
 package ExtentReports;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,12 +15,20 @@ import org.testng.annotations.Test;
 public class SeleniumLoginTest {
     WebDriver driver;
     String baseURL;
+    ExtentReports report;
+    ExtentTest test;
+
     @BeforeClass
-    public void beforeClass(){
+    public void beforeClass() {
+        report = new ExtentReports(System.getProperty("user.dir") + "\\screenshots\\logintest.html");
+        test = report.startTest("Verify Welcome Test");
         driver = new ChromeDriver();
+        test.log(LogStatus.INFO, "Browser Started..");
         baseURL = "https://www.letskodeit.com/";
         driver.get(baseURL);
+        test.log(LogStatus.INFO, "Home Page opened up..");
     }
+
     @Test
     public void test() {
         WebElement loginLink = driver.findElement(By.xpath("//a[@href='/login']"));
@@ -32,6 +43,7 @@ public class SeleniumLoginTest {
         Assert.assertNotNull(welcomeText);
         System.out.println("Login Successful");
     }
+
     @AfterTest
     public void tearDown() {
         driver.quit();
