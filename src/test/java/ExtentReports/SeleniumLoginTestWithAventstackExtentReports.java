@@ -62,7 +62,7 @@ public class SeleniumLoginTestWithAventstackExtentReports {
 
     @AfterTest
     public void tearDown() throws IOException {
-            String filename = getRandomString(10) + ".jpg";
+            String filename = getRandomString(10) + ".png";
             String directory = System.getProperty("user.dir") + "\\screenshots\\";
             File sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             File destinationFile = new File(directory + filename);
