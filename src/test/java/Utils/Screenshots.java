@@ -13,9 +13,9 @@ public class Screenshots {
         fileName = fileName + ".png";
         String directory = System.getProperty("user.dir") + "\\screenshots\\";
         File sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        File destinationFile = new File(directory + fileName);
-        FileUtils.copyFile(sourceFile, destinationFile);
-        String destination = directory + fileName;
-        return destination;
+        File destination = new File(directory + fileName);
+        FileUtils.copyFile(sourceFile, destination);
+        String screenshotDestination = directory + fileName;
+        return screenshotDestination;
     }
 }
