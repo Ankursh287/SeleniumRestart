@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="32ad74c7-c09e-4ead-8188-b9799adad154" name="Changes" comment="Updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,56 +36,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.CheckConnection.executor": "Run",
-    "Application.RandomTest.executor": "Run",
-    "Application.Sample1.executor": "Run",
-    "Application.SampleTest.executor": "Run",
-    "JUnit.JUnitTest.executor": "Run",
-    "JUnit.JUnitTest10.executor": "Run",
-    "JUnit.JUnitTest2.executor": "Run",
-    "JUnit.JUnitTest3.executor": "Run",
-    "JUnit.JUnitTest4.executor": "Run",
-    "JUnit.JUnitTest5.executor": "Run",
-    "JUnit.JUnitTest5.test1.executor": "Debug",
-    "JUnit.JUnitTest6.executor": "Run",
-    "JUnit.JUnitTest7.executor": "Run",
-    "JUnit.JUnitTest8.executor": "Run",
-    "JUnit.JUnitTest9.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng-listeners1.xml.executor": "Run",
-    "TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng-listeners2.xml.executor": "Run",
-    "TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng-listeners3.xml.executor": "Run",
-    "TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng-logs.xml.executor": "Run",
-    "TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng.xml.executor": "Run",
-    "TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testngParallelTestWithMultipleBrowser.xml.executor": "Run",
-    "TestNG.DataProviders.executor": "Run",
-    "TestNG.DataProviders1.executor": "Run",
-    "TestNG.DataProvidersInSameClass.executor": "Run",
-    "TestNG.ParallelTestWithMultipleBrowser.executor": "Run",
-    "TestNG.SampleTest.executor": "Run",
-    "TestNG.SeleniumLoginTest.executor": "Run",
-    "TestNG.SeleniumLoginTestScreenshots.executor": "Run",
-    "TestNG.SeleniumLoginTestWithAventstackExtentReports.executor": "Run",
-    "TestNG.SeleniumLoginTestWithScreenshot.executor": "Run",
-    "TestNG.Test1.executor": "Run",
-    "TestNG.TestNG_ITestResultDemo.executor": "Run",
-    "TestNG.TestNG_ITestResultScreenshotsOnFailure.executor": "Run",
-    "TestNG.TestNG_ListenersTest1.testMethod2.executor": "Debug",
-    "TestNG.TestNG_ReportersAndLogs.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.CheckConnection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RandomTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sample1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SampleTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest10.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest5.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest5.test1.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.JUnitTest6.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest7.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest8.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest9.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng-listeners1.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng-listeners2.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng-listeners3.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng-logs.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testngParallelTestWithMultipleBrowser.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DataProviders.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DataProviders1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DataProvidersInSameClass.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ParallelTestWithMultipleBrowser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SampleTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SeleniumLoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SeleniumLoginTestScreenshots.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SeleniumLoginTestWithAventstackExtentReports.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SeleniumLoginTestWithScreenshot.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestNG_ITestResultDemo.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestNG_ITestResultScreenshotsOnFailure.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestNG_ListenersTest1.testMethod2.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.TestNG_ReportersAndLogs.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Radhekrishna-NUC\IdeaProjects\SeleniumRestart" />
@@ -101,7 +100,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng-listeners3.xml">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="SeleniumRestartBasics" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -230,14 +229,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707302249099</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Updated">
-      <option name="closed" value="true" />
-      <created>1708699914315</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1708699914315</updated>
     </task>
     <task id="LOCAL-00031" summary="Updated">
       <option name="closed" value="true" />
@@ -623,7 +614,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710176105894</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1710232766600</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1710232766600</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
