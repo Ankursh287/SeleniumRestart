@@ -5,8 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32ad74c7-c09e-4ead-8188-b9799adad154" name="Changes" comment="Updated">
-      <change beforePath="$PROJECT_DIR$/datafiles/ExcelData.xlsx.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datafiles/ExcelData.xlsx.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataDriven/ExcelUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-DataDriven.SampleTestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DataDriven/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataDriven/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DataDriven/SampleTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataDriven/SampleTestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/SeleniumRestart.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/SeleniumRestart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/SeleniumRestart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/SeleniumRestart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +86,7 @@
     "TestNG.DataProvidersInSameClass.executor": "Run",
     "TestNG.ParallelTestWithMultipleBrowser.executor": "Run",
     "TestNG.SampleTest.executor": "Run",
+    "TestNG.SampleTestNG.executor": "Run",
     "TestNG.SeleniumLoginTest.executor": "Run",
     "TestNG.SeleniumLoginTestScreenshots.executor": "Run",
     "TestNG.SeleniumLoginTestWithAventstackExtentReports.executor": "Run",
@@ -105,7 +122,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.SampleTestNG">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="SeleniumRestartBasics" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -165,17 +182,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataProviders" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SampleTestNG" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumRestartBasics" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testngCheck.*" />
+          <option name="PATTERN" value="DataDriven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testngCheck" />
-      <option name="MAIN_CLASS_NAME" value="testngCheck.DataProviders" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="DataDriven" />
+      <option name="MAIN_CLASS_NAME" value="DataDriven.SampleTestNG" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -204,14 +232,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.SampleTestNG" />
       <item itemvalue="TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng-listeners3.xml" />
       <item itemvalue="TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng-logs.xml" />
       <item itemvalue="TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng.xml" />
       <item itemvalue="TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testngParallelTestWithMultipleBrowser.xml" />
-      <item itemvalue="TestNG.DataProviders" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SampleTestNG" />
         <item itemvalue="TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng-logs.xml" />
         <item itemvalue="TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testng-listeners3.xml" />
         <item itemvalue="TestNG.C:/Users/Radhekrishna-NUC/IdeaProjects/SeleniumRestart/testngParallelTestWithMultipleBrowser.xml" />
@@ -234,14 +263,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707302249099</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Updated">
-      <option name="closed" value="true" />
-      <created>1708777939238</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1708777939238</updated>
     </task>
     <task id="LOCAL-00037" summary="Updated">
       <option name="closed" value="true" />
@@ -627,7 +648,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710775588638</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1710776137103</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1710776137103</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="SeleniumRestart(failed)">
     <classes>
-      <class name="ExtentReports.Test1">
+      <class name="DataDriven.SampleTestNG">
         <methods>
-          <include name="afterClass"/>
-          <include name="test1_validationLoginTest"/>
-          <include name="beforeClass"/>
+          <include name="tearDown"/>
+          <include name="testUsingExcel"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- ExtentReports.Test1 -->
+      </class> <!-- DataDriven.SampleTestNG -->
     </classes>
   </test> <!-- SeleniumRestart(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->
