@@ -14,24 +14,26 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 public class SampleTestNG {
     WebDriver driver;
-    String baseURL;
 
     @BeforeTest
-    public void setUp(String browser) {
-        //baseURL = "https://www.letskodeit.com/home";
-        switch (browser) {
+    public void setUp(/*String browser*/) {
+/*        switch (browser) {
             case "Chrome" -> driver = new ChromeDriver();
             case "Firefox" -> driver = new FirefoxDriver();
-        }
+        }*/
+        driver = new ChromeDriver();
         driver.get(Constants.URL);
         ExcelUtility.setExcelFile(Constants.File_Path + Constants.File_Name, "LoginTests");
     }
 
     @DataProvider(name = "loginData")
-    public Object[][] dataProvider(){
-        return null;
+    public Object[][] dataProvider() {
+        Object[][] testData = ExcelUtility.getTestData("Invalid_Login");
+        return testData;
     }
 
     @Test(dataProvider = "loginData")
@@ -44,14 +46,14 @@ public class SampleTestNG {
         WebElement emailField = driver.findElement(By.xpath("//input[@placeholder='Email Address']"));
         WebElement passwordField = driver.findElement(By.xpath("//input[@placeholder='Password']"));
         WebElement loginButton = driver.findElement(By.cssSelector("#login"));
-        emailField.sendKeys(ExcelUtility.getTestData());
-        passwordField.sendKeys(ExcelUtility.getTestData());
+        emailField.sendKeys(userName);
+        passwordField.sendKeys(password);
         loginButton.click();
 
         Thread.sleep(2000);
 
-        WebElement errorMessage = driver.findElement(By.cssSelector("#incorrectdetails"));
-        boolean result = true;
+        List<WebElement> errorMessage = driver.findElements(By.cssSelector("#incorrectdetails"));
+        boolean result = (!errorMessage.isEmpty());
         Assert.assertTrue(result);
     }
 

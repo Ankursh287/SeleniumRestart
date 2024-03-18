@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32ad74c7-c09e-4ead-8188-b9799adad154" name="Changes" comment="Updated">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DataDriven/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datafiles/ExcelData.xlsx.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datafiles/ExcelData.xlsx.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DataDriven/SampleTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataDriven/SampleTestNG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/CustomListeners1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngCheck/CustomListeners1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/CustomListeners2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngCheck/CustomListeners2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/CustomListeners3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngCheck/CustomListeners3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testngCheck/TestNG_ListenersTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngCheck/TestNG_ListenersTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testngCheck/TestNG_ListenersTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngCheck/TestNG_ListenersTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng-listeners3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-listeners3.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,14 +234,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707302249099</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Updated">
-      <option name="closed" value="true" />
-      <created>1708776741345</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1708776741345</updated>
     </task>
     <task id="LOCAL-00036" summary="Updated">
       <option name="closed" value="true" />
@@ -635,7 +619,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710774072979</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1710775588638</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1710775588638</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
