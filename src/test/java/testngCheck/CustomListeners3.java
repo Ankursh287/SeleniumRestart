@@ -1,4 +1,4 @@
-package Utils;
+package testngCheck;
 
 import org.testng.*;
 

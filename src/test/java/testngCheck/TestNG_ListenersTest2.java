@@ -1,7 +1,5 @@
 package testngCheck;
 
-import Utils.CustomListeners1;
-import Utils.CustomListeners2;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
